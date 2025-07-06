@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block  content%}
+{%for number in numbers%}
+        Number: {{ number }} <br>
+        {% if number > 2 %}
+            <p>It is a biiig number</p>
+        {% endif %}
+    {% endfor %}
+{% endblock  content%}
+

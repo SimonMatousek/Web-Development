@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block  content%}
+{% for name in names %}
+<h1> Name: {{ name |upper }}</h1> <br>
+{% endfor %}
+{% endblock  content%}
+
